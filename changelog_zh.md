@@ -26,6 +26,8 @@ Table of Contents
 
 ## 3 docs：文档（documentation）
 
+3.1 增加select支持的语法(dual, 列/表别名）[issue_54](docs/pr_0001.md)
+
 ## 4 style： 格式（不影响代码运行的变动）
 
 ## 5 refactor：重构（即不是新增功能，也不是修改bug的代码变动）
