@@ -22,6 +22,8 @@ Table of Contents
 
 1.1 select 支持表别名功能[issue_50](feat/pr_0001.md)
 
+1.2 show 支持:`show columns from table` 功能[commitLog](feat/pr_0002.md)
+
 ## 2 fix：修补bug
 
 ## 3 docs：文档（documentation）
