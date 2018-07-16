@@ -7,7 +7,7 @@ Table of Contents
       * [docs：文档（documentation）](#3-docs文档documentation)
       * [style： 格式（不影响代码运行的变动）](#4-style-格式不影响代码运行的变动)
       * [refactor：重构（即不是新增功能，也不是修改bug的代码变动）](#5-refactor重构即不是新增功>能也不是修改bug的代码变动)
-      * [test：增加测试](#6-test增加测试)
+      * [test：测试相关](#6-test测试相关)
       * [chore：构建过程或辅助工具的变动](#7-chore构建过程或辅助工具的变动)
       * [perf：代码调整以提高性能（performance）](#8-perf代码调整以提高性能performance)
       * [revert：撤销以前的 commit](#9-revert撤销以前的-commit)
@@ -26,6 +26,8 @@ Table of Contents
 
 ## 2 fix：修补bug
 
+2.1 调整status关键字为非预留关键字[commitLog](fix/pr_0001.md)
+
 ## 3 docs：文档（documentation）
 
 3.1 增加select支持的语法(dual, 列/表别名）[issue_54](docs/pr_0001.md)
@@ -34,7 +36,10 @@ Table of Contents
 
 ## 5 refactor：重构（即不是新增功能，也不是修改bug的代码变动）
 
-## 6 test：增加测试
+## 6 test：测试相关
+
+6.1 完善planner测试覆盖率[issue_64](test/pr_0001.md)
+6.2 调整所有test构建测试目录时写死为"/tmp"的方式[commitLog](test/pr_0002.md)
 
 ## 7 chore：构建过程或辅助工具的变动
 
